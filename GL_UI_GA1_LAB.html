@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Details</title>
+    <link rel="stylesheet" href="GL_UI_GA1_LAB_CSS.CSS">
+    </link>
+
+</head>
+
+<body>
+    <div>
+        <form class="sidebyside">
+            <table width="750px">
+                <tr>
+                    <td colspan=" 2">
+                        <h1>1. Your Contact Details</h1>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Full Name" class="inptxt"> </input>
+
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Patient Id if Exists" class="inptxt"> </input>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" placeholder="Contact Number" class="inptxt"> </input>
+
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email Id" class="inptxt"> </input>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h1>2. Address</h1>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="HNo" class="inptxt"> </input>
+
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Street" class="inptxt"> </input>
+                    </td>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Area" class="inptxt"> </input>
+                    </td>
+                    <td>
+                        <label for="selectdistrict">
+                            District
+                        </label>
+                        <select id="selectdistrict" style="width: 200px; margin-top: 20px;">
+                            <option value="">------------Select----------</option>
+                            <option value="MH">Maharashtra</option>
+                            <option value="MN">Manipur</option>
+                            <option value="ML">Meghalaya</option>
+                            <option value="MZ">Mizoram</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h1>3. Choose the Test Type</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset style="outline: none; border: 2px;border-style:outset;border-color: cornsilk;">
+
+                            <input type="checkbox" name="testsel" id="CBC" value="CBC"></input>
+                            <label for="CBC">CBC</label>
+
+
+                            <input type="checkbox" name="testsel" id="Urine" value="Urine"></input>
+                            <label for="Urine">Complete Urine</label>
+
+
+                            <input type="checkbox" name="testsel" id="Lipid" value="Lipid"></input>
+                            <label for="Lipid">Lipid Profile</label>
+
+
+                            <input type="checkbox" name="testsel" id="TSH" value="TSH"></input>
+                            <label for="TSH">Thyroid Stimulating Hormone(TSH)</label>
+                            <br>
+                            <input type="checkbox" name="testsel" id="Glucose" value="Glucose"></input>
+                            <label for="Glucose">Glucose Test</label>
+
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <h1>4. Do you want a hard copy of the report also?</h1>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <select id="reportcnfm" name="reportcnfm" style="width: 200px; margin-top: 20px;">
+                            <option value="yes">
+                                Yes
+                            </option>
+
+                            <option value="no">
+                                No
+                            </option>
+
+                        </select>
+
+
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <h1>5. Select Your Comfortable Date and Time</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for"seldttime"></label>
+                        <input type="datetime-local" id="seldttime" style="width:200px;"></input>
+                    </td>
+                </tr>
+
+            </table>
+            <br><br>
+            <button type="reset" class="frm-btn" style="margin-left: 10%;">Reset</button>
+            <button type="submit" class="frm-btn">Submit</button>
+
+        </form>
+
+        <img src="lab-test.jpg" alt="" class="sidebyside">
+    </div>
+</body>
+
+</html>

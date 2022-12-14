@@ -1,0 +1,36 @@
+.sidebyside
+{
+    position: relative;
+    display:inline-block;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:azure;
+    padding-left: 10px;
+}
+img{
+    position: static;
+    float:right;
+    }
+.inptxt
+{
+    width: 75%;
+    outline: 0;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px 
+  solid rgba(88,78,0,0.2);
+    padding-top: 20px;
+}
+
+h1{
+    font-size: x-large;
+}
+.frm-btn
+{
+    width: 10%;
+    background-color: violet;
+    color: white;
+}

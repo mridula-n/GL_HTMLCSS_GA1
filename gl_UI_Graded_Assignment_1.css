@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: #606060;
+    height: 100px;
+    margin: 0px;
+}
+.menu
+{
+    margin: 0%;
+    background-color:  #8e8e8e; 
+    color: white;
+}
+.menu li
+{
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color:  #8e8e8e;
+}
+.menu li
+{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+.dropdown-child
+{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    width: auto;
+    margin-top: 17px;
+    z-index: 1;
+}
+.dropdown-child a
+{
+    text-decoration: none;
+    display: block;
+    background-color: lightgray;  
+}
+/*a{
+   color: white;
+    text-decoration: none;
+}*/
+.dropdown-child li
+{
+    width: 160px;
+    background-color: lightgray;  
+    padding:0px;
+}
+
+.menu li:nth-child(2):hover .dropdown-child, li:nth-child(3):hover .dropdown-child {
+    display: block;
+ }
+
+ a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-child li a
+{
+    color:cornflowerblue;
+}
+
+ a:hover{
+    background-color: black;
+ }
+#img-anm
+{
+    width: 100%;
+    height: 100px;
+    position: relative; 
+    animation: mymove 10s infinite;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    border: 2px;
+    border-bottom: steelblue;
+    border-style: solid;
+} 
+
+.img-cls
+{
+    height: 75px;
+    width: fit-content;
+}
+
+.img-cls1
+{
+    height: 75px;
+    width: 250px;
+}
+
+
+td p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+td button
+{
+    margin-top: 8px;
+    width: 150px;
+    color: peru;
+    border-radius: 1px;
+    border-color: blue;
+    border: solid;
+    border-radius: 1px;
+}
+
+#covid-care
+{
+    width: auto;
+}
+
+.product-block
+{
+  width: 5%;
+  background-color :azure;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: steelblue;
+  border: solid;
+  border-width: 2px;
+  padding-left: 20px;
+}
+
+@keyframes mymove {
+    0%   {opacity: 1; background-image: url("ani5.jpg")}
+    25%  {opacity: 1; background-image: url("ani1.jpg")}
+    50%  {opacity: 1; background-image: url("ani2.png")}
+    75%  {opacity: 1; background-image: url("ani3.jpg")}
+    100% {opacity: 1; background-image: url("ani4.jpg")}
+}
+
+footer{
+    background-color: #606060;
+    color: white;
+}
+
+button:active
+{
+   background-color:rgb(250, 234, 230) ;
+border: rgb(0,255,76);
+border-width: 2px;
+}
+
+img:hover
+{
+    height: 77px;
+    width: 257px;
+
+}
